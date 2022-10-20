@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Heading */
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #233A80;
+    padding: 30px 0px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Content */
+ul {
+    margin-left: 30px;
+}
+
+.jost {
+    font-family: 'Jost', sans-serif;
+}
+
+.barlow {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* Go back button */
+a {
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
